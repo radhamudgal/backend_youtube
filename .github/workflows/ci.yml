@@ -57,4 +57,4 @@ jobs:
         # actual command
 
     - name : Test Command
-      run: echo "Testing APP"
+      run: echo "Testing"
