@@ -43,11 +43,7 @@ jobs:
     # versions you want to test your app on
     strategy:
       matrix:
-<<<<<<< HEAD
-        node-version: [20.x, 22.x, 24.x]
-=======
         node-version: [20.x, 22.x]
->>>>>>> test2
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -61,18 +57,9 @@ jobs:
         cache: 'npm'
         # actual command
 
-<<<<<<< HEAD
-    - name: Install Dependencies
-      run: npm install
-
-=======
     - name : Install Dependencies
       run: npm install
 
-    - name : Run Tests
-      run: npm test
-
->>>>>>> test2
     - name : Test Command
       run: echo "Running Test Cases"
 
