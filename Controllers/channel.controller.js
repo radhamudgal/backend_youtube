@@ -1,6 +1,6 @@
 const { default: mongoose } = require("mongoose");
-const Channel = require("../models/Channel.model");
-const User = require("../models/User.model");
+const Channel = require("../Models/channel.model");
+const User = require("../Models/user.model");
 
 // api to create channel
 const createChannel = async (req, res) => {
