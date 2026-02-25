@@ -28,7 +28,7 @@ app.use('/api/videos', videoRouter)
 
 app.use("/api/channel", channelRouter)
 app.get("/", (req, res) => {
-    return res.status(200).json({message : "Welcome to youtube backend MRU!!!⚡️ University"})
+    return res.status(200).json({message : "Welcome to youtube backend MRU"})
 })
 
 app.listen(4000, () => {
