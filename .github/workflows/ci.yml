@@ -58,7 +58,7 @@ jobs:
         # actual command
 
     - name : Install Dependencies
-      run: npm install
+      run: npm ci
 
     - name : Test Command
       run: echo "Running Test Cases"

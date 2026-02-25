@@ -31,8 +31,8 @@ describe("User Controller Tests", () => {
             };
 
             const saveStub = sinon.stub(User.prototype, "save").resolves({
-                username: "Nehal",
-                email: "nehal@test.com"
+                username: "radha",
+                email: "radha@test.com"
             });
 
             await createUser(req, res);
