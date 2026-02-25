@@ -24,6 +24,6 @@ EXPOSE 4000
 
 # run the server
 
-CMD [ "npm", "start" ];
+CMD [ "npm", "start" ]
 
 
