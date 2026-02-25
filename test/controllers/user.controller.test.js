@@ -20,7 +20,7 @@ describe("User Controller Tests", () => {
 
             const req = {
                 body: {
-                    username: "Radha",
+                    username: "Radhaa",
                     email: "radha@test.com"
                 }
             };
