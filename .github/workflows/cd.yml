@@ -41,3 +41,6 @@ jobs:
 
     - name: Login Successful'
       run: echo "Logged in to Docker Hub successfully"
+
+    - name: Push Docker Image
+      run: docker push radhamudgal/youtube_backend
